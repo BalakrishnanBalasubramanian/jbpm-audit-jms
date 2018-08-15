@@ -9,7 +9,7 @@
     <event-listeners>
         <event-listener>
             <resolver>mvel</resolver>
-            <identifier>new org.jbpm.process.audit.jms.AsyncAuditLogProducer(ksession)</identifier>
+            <identifier>new org.jbpm.process.audit.jms.AsyncAuditLogProducer(ksession, true)</identifier>
             <parameters/>
         </event-listener>
     </event-listeners>
