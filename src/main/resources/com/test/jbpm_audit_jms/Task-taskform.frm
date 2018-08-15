@@ -1,0 +1,1 @@
+{"id":"2ca029a4-570a-4339-a68a-a4e75c47c24e","name":"Task-taskform.frm","model":{"taskName":"Task","processId":"jbpm-audit-jms.audit-jms-process","properties":[],"formModelType":"org.kie.workbench.common.forms.jbpm.model.authoring.task.TaskFormModel"},"fields":[],"layoutTemplate":{"version":2,"style":"FLUID","layoutProperties":{},"rows":[]}}
