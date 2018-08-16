@@ -9,7 +9,7 @@
     <event-listeners>
         <!--event-listener>
             <resolver>mvel</resolver>
-            <identifier>new org.jbpm.process.audit.jms.AsyncAuditLogProducer(ksession, true)</identifier>
+            <identifier>org.jbpm.process.audit.AuditLoggerFactory.newJMSInstance(true, (javax.jms.ConnectionFactory) javax.naming.InitialContext.doLookup("java:jboss/DefaultJMSConnectionFactory"), (javax.jms.Queue) javax.naming.InitialContext.doLookup("java:/jms/queue/KIEAUDIT"))</identifier>
             <parameters/>
         </event-listener-->
     </event-listeners>
